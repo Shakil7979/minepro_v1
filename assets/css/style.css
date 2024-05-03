@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap');
+
+html{
+	font-size: 62.5%;
+	font-family: "Rethink Sans", sans-serif;
+}
+body{	
+	font-size: 1.6rem; 
+	font-weight: 400;
+}
+h1,h2,h3,h4,h5,h6,p{
+	margin: 0;
+	padding: 0;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+ul li a,a{
+	text-decoration: none;
+}
+
+/*========= Farm Start Page  =======*/
+
+.header {
+	border-radius: 15px;
+	background: rgba(235, 219, 55, 0.12);
+	padding: 0 16px;
+}
+
+.logo a p {
+	color: var(--P5, #FFF);
+	font-family: "Rethink Sans";
+	font-size: 26px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+
+.logo a img {
+	width: 36px;
+}
+
+.menu ul li a {
+	color: #9BA9C4;
+	font-family: "Rethink Sans";
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	padding: 21px 0;
+	display: inline-block;
+	transition: 0.3s;
+	border-bottom: 5px solid transparent;
+}
+
+.menu ul li a:hover ,
+.menu ul li a.active {
+	border-bottom: 5px solid #EEC42D;
+}
+
+.menu ul {
+	display: flex;
+	gap: 24px;
+	justify-content: flex-end;
+}
+
+.menu {
+	display: flex;
+	gap: 52px;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.header_row {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.header_area {
+	background: transparent;
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 0;
+	margin-top: 40px;
+	z-index: 9;
+}
+
+.mobile_bars{
+	display: none !important;
+}
+
+.logo a {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+}
+
+.banner_area{ 
+	padding: 225px 0;
+	background: url(../images/banner.png) no-repeat scroll center center / cover;
+} 
+
+.banner {
+	/* position: relative;
+	z-index: 9; */
+	width: 78%;
+	margin: 0 auto;
+}
+
+.banner h2 {
+	color: var(--P5, #FFF);
+	text-align: center;
+	text-shadow: 5px 6px 0px #2E84BD;
+	font-family: "Rethink Sans";
+	font-size: 104px;
+	font-style: normal;
+	font-weight: 800;
+	line-height: 125%;
+}
+
+.banner p {
+	color: #E4EBF8;
+	text-align: center;
+	font-family: "Rethink Sans";
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 36px;
+	margin-top: 20px;
+}
+
+.btn_1 {
+	border-radius: 6px;
+	background: #EEC42D;
+	padding: 12px 16px;
+	color: #000;
+	font-family: "Rethink Sans";
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	transition: 0.3s;
+	display: inline-block;
+}
+
+.btn_1:hover {
+	opacity: 0.83;
+	color: #000;
+}
+
+.facility_area {
+	position: relative;
+	margin: 180px 0 70px 0;
+}
+
+
+.facility_text{
+	padding: 50px 0; 
+}
+
+.facility_text h4 {
+	color: #000;
+	font-family: "Rethink Sans";
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 56px;
+	margin-bottom: 32px;
+}
+
+.facility_text p {
+	color: #000;
+	font-family: "Rethink Sans";
+	font-size: 22px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 150%;
+	margin-bottom: 32px;
+}
+
+.facility_mobile_img{
+	display: none;
+}
+.facility_img_area{
+	display: block;
+}
+
+.facility_text p a {
+	color: #3788BE; 
+	text-decoration-line: underline;
+}
+
+.facility_img_area {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 42%;
+}
+
+.facility_img img {
+	width: 100%;
+	height: 615px;
+}
+
+.btn_1.btn_11{
+	padding: 16px 32px ;
+}
+
+.btn_1.btn_11 img {
+	width: 32px;
+	margin-right: 10px;
+}
+
+.join_box h3 {
+	color: var(--P5, #FFF);
+	font-family: "Rethink Sans";
+	font-size: 40px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 56px;
+	margin-bottom: 32px;
+}
+
+.join_box{
+	padding: 110px 0;
+	margin: 0 auto;
+	border-radius: 15px; 
+	text-align: center;
+	background: url(../images/join.png) no-repeat scroll center center / cover;
+}
+
+.footer {
+	margin-top: 388px;
+	padding: 182px 0 56px 0;
+	background-color: #000;
+}
+
+.footer_row {
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer_first p {
+	color: #FCFAF9;
+	font-family: "Rethink Sans";
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px;
+	margin-top: 12px;
+	width: 71%;
+}
+
+.footer_first {
+	flex: 0 0 40%;
+}
+
+.foote_logo a {
+	color: var(--P5, #FFF);
+	font-family: "Rethink Sans";
+	font-size: 26px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal; 
+	display: flex;
+	align-items: center;
+	gap: 12px;
+}
+
+.foote_logo a img {
+	width: 36px;
+}
+
+.footer_last h4 ,
+.footer_middle h4 {
+	color: var(--P5, #FFF);
+	font-family: "Rethink Sans";
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 28px;
+	margin-bottom: 16px;
+}
+
+.footer_middle ul li a {
+	color: var(--P5, #FFF);
+	font-family: "Rethink Sans";
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 22px;
+	transition: 0.3s;
+}
+
+.footer_middle ul li a:hover{
+	text-decoration: underline;
+}
+
+
+.footer_middle ul li{
+	margin-bottom: 16px;
+}
+ 
+
+.footer_last ul li a img {
+	width: 40px;
+	transition: 0.3s;
+}
+.footer_last ul li a:hover img {
+	opacity: 0.83;
+}
+
+.footer_last ul {
+	display: flex;
+	gap: 16px;
+}
+
+.footer_middle {
+	flex: 0 0 15%;
+}
+
+.footer_last {
+	flex: 0 0 20%;
+}
+
+.footer_copy_right p {
+	color: var(--P5, #FFF);
+	font-family: "Rethink Sans";
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 22px;
+	padding: 27px 0;
+}
+
+.footer_copy_right {
+	background: #252525;
+	text-align: center;
+}
+
+.footer_area {
+	position: relative;
+}
+
+.join_area {
+	position: absolute;
+	width: 100%;
+	top: -56%;
+}
+
+/*======== Farm End Page  ==========*/
+
+/*======== Stacking Start Page  ==========*/
+
+.stacking_area {
+	background-image: url(../images/stacking/banner.png);
+	padding: 155px 0 88px 0;
+}
+
+.facility_img.stacking_facilty_img img {
+	height: auto;
+	transform: translateY(125px);
+}
+
+.facility_area.stacking_faci_area {
+	margin-top: 33px;
+}
+
+/*======== Stacking End Page  ==========*/
+
+

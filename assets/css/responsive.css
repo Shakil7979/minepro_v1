@@ -1,0 +1,174 @@
+@media all and (min-width: 1400px){
+    .container{
+        width: 1280px; 
+    }
+}
+
+@media all and (max-width: 1199px){
+    .menu ul li a { 
+        font-size: 14px; 
+    }
+    .menu ul { 
+        gap: 18px; 
+    }
+    .menu { 
+        gap: 25px; 
+    }
+    .facility_text p { 
+        font-size: 18px; 
+        line-height: 142%; 
+    }
+    .facility_img img { 
+        height: 515px;
+    }
+}
+
+@media all and (min-width: 991px){
+    .header_menu {
+        display: block !important;
+    }
+}
+
+@media all and (max-width: 991px){
+    .menu { 
+        flex-direction: column;
+    }
+    .mobile_bars{
+        display: block !important;
+    }
+    .menu ul {
+        gap: 0;
+        flex-direction: column;
+    }
+    .menu ul li a { 
+        padding: 7px 0; 
+    }
+    .header { 
+        position: relative;
+    }
+    .header_menu {
+        position: absolute;
+        top: 67px;
+        background: #000;
+        width: 100%;
+        left: 0;
+        z-index: 99999;
+        padding: 25px 0;
+        display: none;
+        border-radius: 15px;
+    }
+    .menu ul li {
+        text-align: center;
+    }
+    .logo {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        padding: 15px 0;
+    }
+    .mobile_bars i {
+        font-size: 31px;
+        color: #ffff;
+    }
+    .banner h2 { 
+        font-size: 45px; 
+    }
+    .banner p { 
+        font-size: 16px; 
+        line-height: 25px; 
+    }
+    .facility_img_area{
+        display: none;
+    }
+    .facility_mobile_img{
+        display: block;
+    }
+    .facility_area {
+        position: relative;
+        margin: 80px 0 50px 0;
+    }
+    .facility_text p {
+        font-size: 16px;
+        line-height: 142%;
+    }
+    .facility_text p {
+        font-size: 16px;
+        line-height: 142%;
+    }
+    .facility_text h4 {
+        font-size: 30px;
+        margin-bottom: 8px;
+        line-height: 35px;
+    }
+    .facility_text p { 
+        margin-bottom: 16px;
+    }
+    .facility_img img {
+        height: auto;
+    }
+}
+
+@media all and (max-width: 767px){
+    .banner { 
+        width: 100%; 
+    }
+    .join_box h3 { 
+        font-size: 28px; 
+        line-height: 8px;
+        margin-bottom: 22px;
+    }
+    .footer {
+        margin-top: 270px;
+        padding: 100px 0 56px 0; 
+    }
+    .footer_row { 
+        flex-direction: column;
+    }
+    .foote_logo a { 
+        justify-content: center;
+    }
+    .footer_first p { 
+        line-height: 22px;
+        margin-top: 12px; 
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 12px;
+    }
+    .footer_last h4, .footer_middle h4 {
+ 
+        font-size: 16px; 
+        margin-bottom: 8px;
+    }
+    .footer_middle ul li {
+        margin-bottom: 5px;
+    }
+    .footer_last,
+    .footer_middle { 
+        margin-top: 25px;
+        text-align: center;
+    }
+    .footer_last ul { 
+        justify-content: center;
+    }
+    .footer_copy_right p { 
+        font-size: 14px; 
+    }
+    .join_area { 
+        top: -259px;
+    }
+}
+
+@media all and (max-width: 575px){
+    .banner p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .footer_first p { 
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 450px){
+	
+}
