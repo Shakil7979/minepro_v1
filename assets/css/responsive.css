@@ -150,6 +150,9 @@
     .banner { 
         width: 100%; 
     }
+    .presale_item_margin {
+        flex-direction: column-reverse;
+    }
     .logic_mining_area { 
         margin-bottom: 315px;
     }
