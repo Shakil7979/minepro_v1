@@ -8,11 +8,24 @@
     .menu ul li a { 
         font-size: 14px; 
     }
+    .logic_content > p { 
+        font-size: 18px; 
+    }
+    .banner h2 { 
+        font-size: 65px; 
+    }
     .menu ul { 
         gap: 18px; 
     }
     .menu { 
         gap: 25px; 
+    }
+    .logic_box_content h3 { 
+        font-size: 32px; 
+    }
+    .logic_box_content p { 
+        font-size: 16px; 
+        margin-bottom: 12px;
     }
     .facility_text p { 
         font-size: 18px; 
@@ -32,6 +45,15 @@
 @media all and (max-width: 991px){
     .menu { 
         flex-direction: column;
+    }
+    .token_text p { 
+        font-size: 16px; 
+    }
+    .logic_box_content {
+        margin-bottom: 40px;
+    }
+    .logic_content > p { 
+        margin-bottom: 40px;
     }
     .presale_item_text p,
     .section_title p { 
@@ -128,6 +150,9 @@
     .banner { 
         width: 100%; 
     }
+    .logic_mining_area { 
+        margin-bottom: 315px;
+    }
     .presale_item_margin {
         margin-top: 50px;
     }
@@ -185,6 +210,17 @@
         font-size: 14px;
         line-height: 22px;
     }
+    .logic_content > p {
+        font-size: 14px;
+    }
+    .logic_box_content h3 {
+        font-size: 24px;
+        margin-bottom: 12px;
+    }
+    .logic_box_content p {
+        font-size: 14px;
+        margin-bottom: 12px;
+    }
     .presale_content_area {
         margin: 45px 0 305px 0;
     }
@@ -197,5 +233,7 @@
 }
 
 @media all and (max-width: 450px){
-	
+	.logic_box_content h3 {
+        font-size: 20px; 
+    }
 }
