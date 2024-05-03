@@ -33,6 +33,21 @@
     .menu { 
         flex-direction: column;
     }
+    .presale_item_text p,
+    .section_title p { 
+        font-size: 16px; 
+    }
+    .presale_item_text h3,
+    .section_title h3 { 
+        font-size: 35px; 
+        margin-bottom: 4px;
+    }
+    .section_title {
+        max-width: 424px; 
+    }
+    .presale_content_area .row {
+        gap: 25px;
+    }
     .mobile_bars{
         display: block !important;
     }
@@ -113,6 +128,12 @@
     .banner { 
         width: 100%; 
     }
+    .presale_item_margin {
+        margin-top: 50px;
+    }
+    .section_title { 
+        margin: 0 auto 50px auto; 
+    }
     .join_box h3 { 
         font-size: 28px; 
         line-height: 8px;
@@ -164,8 +185,14 @@
         font-size: 14px;
         line-height: 22px;
     }
+    .presale_content_area {
+        margin: 45px 0 305px 0;
+    }
     .footer_first p { 
         width: 100%;
+    }
+    .presale_item_text h3, .section_title h3 {
+        font-size: 30px; 
     }
 }
 
